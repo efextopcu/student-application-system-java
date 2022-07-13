@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">basvuru-sistemi-yazilim-gelistirme</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="cikis_yap">Çıkış Yap</string>
+    <string-array name="fakulteler">
+        <item>Eğitim</item>
+        <item>Fen - Edebiyat</item>
+        <item>Mühendislik</item>
+        <item>Teknoloji</item>
+        <item>İletişim</item>
+    </string-array>
+
+    <string-array name="egitim">
+        <item>Fen Bilgisi Öğretmenliği</item>
+        <item>Okul Öncesi Öğretmenliği</item>
+        <item>Sınıf Öğretmenliği</item>
+        <item>Türkçe Öğretmenliği</item>
+        <item>İngilizce Öğretmenliği</item>
+    </string-array>
+
+    <string-array name="fenedebiyat">
+        <item>Arkeoloji</item>
+        <item>Biyoloji</item>
+        <item>Felsefe</item>
+        <item>Tarih</item>
+        <item>Türk Dili ve Edebiyatı</item>
+    </string-array>
+
+    <string-array name="muhendislik">
+        <item>Bilgisayar Mühendisliği</item>
+        <item>Elektrik Mühendisliği</item>
+        <item>Endüstri Mühendisliği</item>
+        <item>Makine Mühendisliği</item>
+        <item>İnşaat Mühendisliği</item>
+    </string-array>
+
+    <string-array name="teknoloji">
+        <item>Bilişim Sistemleri Mühendisliği</item>
+        <item>Biyomedikal Mühendisliği</item>
+        <item>Enerji Sistemleri Mühendisliği</item>
+        <item>Mekatronik Mühendisliği</item>
+        <item>Otomotiv Mühendisliği</item>
+    </string-array>
+
+    <string-array name="iletisim">
+        <item>Gazetecilik</item>
+        <item>Görsel İletişim Tasarımı</item>
+        <item>Halkla İlişkiler ve Tanıtım</item>
+        <item>Radyo Televizyon ve Sinema</item>
+        <item>Reklamcılık</item>
+    </string-array>
+    <string-array name="application_types_data">
+        <item>ÇAP</item>
+        <item>Yatay Geçiş</item>
+        <item>Dikey Geçiş</item>
+        <item>Ders İntibakı</item>
+        <item>Yaz Okulu</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

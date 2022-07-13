@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232222"
+    android:backgroundTint="#232222"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <Spinner
+        android:id="@+id/application_types"
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="123dp"
+        android:background="#4E4E4E"
+        android:entries="@array/application_types_data"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:fontFamily="serif"
+        android:text="Başvuru Türünü Seçiniz:"
+        android:textAlignment="textStart"
+        android:textColor="#878787"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="126dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/unnamed"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="664dp"
+        android:layout_marginEnd="16dp"
+        android:background="#787878"
+        android:backgroundTint="@android:color/darker_gray"
+        android:fontFamily="serif"
+        android:onClick="setApplicationScreen"
+        android:text="DEVAM >"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="signoutButtonClick"
+        android:text="Çıkış Yap"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="664dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

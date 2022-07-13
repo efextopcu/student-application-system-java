@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?attr/colorButtonNormal"
+                    android:visibility="visible"
+                    tools:context=".MainActivity">
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="504dp"
+                        android:layout_height="1153dp"
+                        app:srcCompat="@drawable/stock_photo_dark_empty_black_grey_paper"
+                        tools:layout_editor_absoluteX="-12dp"
+                        tools:layout_editor_absoluteY="-336dp" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="374dp"
+                        android:layout_height="42dp"
+                        android:text="Yaz Okulu Başvurusu"
+                        android:textColor="#DFD5D5"
+                        android:textSize="34sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="47dp"
+                        tools:layout_editor_absoluteY="109dp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="327dp"
+                        android:layout_height="48dp"
+                        android:text="Lütfen gerekli belgeleri alanları doldurunuz."
+                        android:textColor="#DFD5D5"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="68dp"
+                        tools:layout_editor_absoluteY="166dp" />
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar5"
+                        android:layout_width="413dp"
+                        android:layout_height="26dp"
+                        android:background="#838080"
+                        android:minHeight="?attr/actionBarSize"
+                        android:theme="?attr/actionBarTheme"
+                        tools:layout_editor_absoluteX="-1dp"
+                        tools:layout_editor_absoluteY="236dp" />
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar3"
+                        android:layout_width="413dp"
+                        android:layout_height="26dp"
+                        android:background="#838080"
+                        android:minHeight="?attr/actionBarSize"
+                        android:theme="?attr/actionBarTheme"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="441dp" />
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar7"
+                        android:layout_width="413dp"
+                        android:layout_height="26dp"
+                        android:background="#838080"
+                        android:minHeight="?attr/actionBarSize"
+                        android:theme="?attr/actionBarTheme"
+                        tools:layout_editor_absoluteX="-1dp"
+                        tools:layout_editor_absoluteY="540dp" />
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar"
+                        android:layout_width="413dp"
+                        android:layout_height="26dp"
+                        android:background="#838080"
+                        android:minHeight="?attr/actionBarSize"
+                        android:theme="?attr/actionBarTheme"
+                        tools:layout_editor_absoluteX="-1dp"
+                        tools:layout_editor_absoluteY="335dp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="121dp"
+                        android:layout_height="38dp"
+                        android:text="Üni Giriş Puanı "
+                        android:textColor="#DFD5D5"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="145dp"
+                        tools:layout_editor_absoluteY="236dp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="356dp"
+                        android:layout_height="30dp"
+                        android:text="Ders Seçmek İstenilen Üniversite Adı  "
+                        android:textColor="#DFD5D5"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="73dp"
+                        tools:layout_editor_absoluteY="335dp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="121dp"
+                        android:layout_height="38dp"
+                        android:text="Dersin Adı"
+                        android:textColor="#DFD5D5"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="170dp"
+                        tools:layout_editor_absoluteY="441dp" />
+
+                    <TextView
+                        android:id="@+id/textWarningSend"
+                        android:layout_width="121dp"
+                        android:layout_height="38dp"
+                        android:text="Dersin Kodu"
+                        android:textColor="#DFD5D5"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="163dp"
+                        tools:layout_editor_absoluteY="540dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="70dp"
+                        android:layout_height="68dp"
+                        app:srcCompat="@drawable/unnamed"
+                        tools:layout_editor_absoluteX="170dp"
+                        tools:layout_editor_absoluteY="16dp" />
+
+                    <Button
+                        android:id="@+id/showDatePickerDialog"
+                        android:layout_width="188dp"
+                        android:layout_height="52dp"
+                        android:text="NEXT"
+                        app:iconTint="#A13232"
+                        tools:layout_editor_absoluteX="111dp"
+                        tools:layout_editor_absoluteY="663dp" />
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar4"
+                        android:layout_width="429dp"
+                        android:layout_height="44dp"
+                        android:background="#403D3D"
+                        android:minHeight="?attr/actionBarSize"
+                        android:theme="?attr/actionBarTheme"
+                        tools:layout_editor_absoluteX="-9dp"
+                        tools:layout_editor_absoluteY="262dp" />
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar2"
+                        android:layout_width="429dp"
+                        android:layout_height="44dp"
+                        android:background="#403D3D"
+                        android:minHeight="?attr/actionBarSize"
+                        android:theme="?attr/actionBarTheme"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="361dp" />
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar6"
+                        android:layout_width="429dp"
+                        android:layout_height="44dp"
+                        android:background="#403D3D"
+                        android:minHeight="?attr/actionBarSize"
+                        android:theme="?attr/actionBarTheme"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="467dp" />
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar8"
+                        android:layout_width="429dp"
+                        android:layout_height="44dp"
+                        android:background="#403D3D"
+                        android:minHeight="?attr/actionBarSize"
+                        android:theme="?attr/actionBarTheme"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="566dp" />
+
+                    <TextView
+                        android:id="@+id/unsignedView"
+                        android:layout_width="273dp"
+                        android:layout_height="41dp"
+                        android:text="............................................"
+                        android:textColor="#DFD5D5"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="111dp"
+                        tools:layout_editor_absoluteY="282dp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="273dp"
+                        android:layout_height="41dp"
+                        android:text="............................................"
+                        android:textColor="#DFD5D5"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="111dp"
+                        tools:layout_editor_absoluteY="484dp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="273dp"
+                        android:layout_height="41dp"
+                        android:text="............................................"
+                        android:textColor="#DFD5D5"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="111dp"
+                        tools:layout_editor_absoluteY="584dp" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="273dp"
+                        android:layout_height="41dp"
+                        android:text="............................................"
+                        android:textColor="#DFD5D5"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="111dp"
+                        tools:layout_editor_absoluteY="382dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@android:drawable/ic_menu_directions"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="236dp" />
+
+                    <ImageView
+                        android:id="@+id/cap_puan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@android:drawable/ic_menu_directions"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="335dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@android:drawable/ic_menu_directions"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="441dp" />
+
+                    <ImageView
+                        android:id="@+id/cap_transkript"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@android:drawable/ic_menu_directions"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="540dp" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
